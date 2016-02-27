@@ -1,0 +1,878 @@
+<?xml version='1.0' ?><?mso-application progid="Excel.Sheet"?><Workbook xmlns='urn:schemas-microsoft-com:office:spreadsheet' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns:ss='urn:schemas-microsoft-com:office:spreadsheet' xmlns:html='http://www.w3.org/TR/REC-html40' xmlns:o='urn:schemas-microsoft-com:office:office'>
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>.</Author>
+  <LastAuthor>.</LastAuthor>
+  <Created>2011-02-24T12:12:23Z</Created>
+  <Company>Filter Titles Agresso</Company>
+  <Version>12.00</Version>
+ </DocumentProperties><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11250</WindowHeight>
+  <WindowWidth>23835</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook><Styles xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+  <Style xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom" />
+   <Borders />
+   <Font xmlns:x="urn:schemas-microsoft-com:office:excel" ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000" />
+   <Interior />
+   <NumberFormat />
+   <Protection />
+  </Style>
+  <Style xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+  </Style>
+  <Style xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+  </Style>
+  <Style xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid" />
+  </Style>
+  <Style xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" />
+   <Font xmlns:x="urn:schemas-microsoft-com:office:excel" ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000" />
+  </Style>
+  <Style xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:ID="s66">
+   <Font xmlns:x="urn:schemas-microsoft-com:office:excel" ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000" />
+  </Style>
+ </Styles><Worksheet ss:Name='1' >
+<Table ss:ExpandedColumnCount='5' ss:ExpandedRowCount='22048' x:FullColumns='1' x:FullRows='1' ss:DefaultRowHeight='15' >
+<Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">25</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Tax amount (%s)</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 25. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">16</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Previous row</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 16. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">15</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Next row</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 15. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">45</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Invalid value on line %s in the table</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 45. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">21</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Reg. amount (%s)</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 21. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">19</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Your transactions</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 19. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">22</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Next transaction</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 22. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">22</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Previous transaction</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 22. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">129</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">The transaction will be saved before you can redistribute or modify the existing distribution. Do you want to continue?</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 129. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">35</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Contract details enquiry</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 35. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">21</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Contract enquiry</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 21. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">20</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Contracted amount</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 20. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">20</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Registered amount</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 20. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">98</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">The transaction does not balance in %s, currency %s, amount %s. Do you want to save anyway?</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 98. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">75</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Use Text value as subject in Action overview</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 75. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">21</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Item details</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 21. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">20</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Redistribute</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 20. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">9</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Modify</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 9. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">56</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Workflow enquiry - Reminder proposal</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 56. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">22</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">AO description</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 22. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">160</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">No e-mail columns have been selected for this element type. Select one or more columns in Element type details.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 160. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">67</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">There was a problem with showing an Agresso 5.4 Invoice Manager map</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 67. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">72</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">There was a problem with showing Agresso 5.4 Invoice Manager map details</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 72. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">OCR template designer</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Used in OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">16</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">General template</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 16. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">15</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Zone definition</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 15. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">9</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Zone type</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 9. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">13</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Literal match</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 13. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">11</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Date format</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 11. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">9</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Basepoint</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 9. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">21</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">No basepoint selected</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 21. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">8</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">No index</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 8. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">6</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">OCR</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 6. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Name of check box</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">13</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Set basepoint</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 13. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Test</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Test, used as a noun.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">5</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Match</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 5. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">28</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Ignore spaces</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 28. This is the current max length of all the translations for this title as of 24.02.2006.
+<hard-return />Check box indicating that the system should ignore spaces in a text string when processing OCR.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Used in OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">27</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Remove spaces after match</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 27. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">14</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Use dictionary</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 14. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">16</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Legal characters</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 16. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">18</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Illegal characters</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 18. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">15</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">OCR output</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 10. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">27</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Regular expression library</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">This is a library of regular expressions. Make sure "regular expression" is translated consistently.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">13</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Fit to window</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 13. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">9</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Recursive</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 9. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">9</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Lock page</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 9. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">11</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Unlock page</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 11. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">14</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Test basepoint</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 14. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">21</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Do not test basepoint</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 21. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">8</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">New zone</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 8. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">16</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Image properties</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 16. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">12</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">New template</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 12. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">19</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">New image from file</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 19. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">100</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">The system could not save the data. Contact the system administrator if the problem persists.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 14. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Message used when OCR system cannot save.</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">12</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Supplier key</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The max length for this title is calculated to 12. This is the current max length of all the translations for this title as of 24.02.2006.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">40</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">No image available</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Message displayed on the image pane in OCR template designer. Max length approx. 40 characters.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">General</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">%s already exists.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Marital Status</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Requirements</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Proposal state</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Display</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Resource</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Alias</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Effective Date</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Boolean</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Scheduling</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Planning, setting up a time schedule for something to happen.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Batch ID</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Alternative way of writing batch ID (note the space). In ABW reports BatchID is used (no space).</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Proposal</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Average</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Succeeded</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Failed</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">A status.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Adjustment</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Receipt</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Contract header</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Classification</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Client</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Receipt No.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Show active zone</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Menu command, as opposed to Show all zones</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Height</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Hide basepoint</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Zone</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">In OCR, an area.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Horizontal resolution</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Stretch to window</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">20</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Adv. zone def.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Button, short for Advanced zone definition</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Show all zones</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">This is a menu command</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Vertical resolution</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Zoom to zone</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Pixel format</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Order ID</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Incoming invoice</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Groups</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Order line</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Appointment</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Cancell. date</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Date of cancellation. Name of column.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Column number</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Decimal separator</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">250</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Delivery time</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Exchange rate</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Extra information</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Supplementary information on something.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Fields.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Form</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">15</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Group ID</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Icon</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Invoice price</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Landscape</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Text string displayed in windows</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Paper orientation type when ordering report for printing at the server.</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Licence</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Note the difference in spelling in US and UK English.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Local</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Means of transport</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Name of column.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Menu type</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Nationality</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Order amount</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Parameter</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">25</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Reason change</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">The reason why a change is made.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Receipt date</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Removed</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Score</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Status OLD</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">In ABW used in asysgen02. Note, should NOT be used in this form in windows/reports.</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Storage</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Name of column.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">String</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Time span</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Total invoice amount</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Text string displayed in windows. The total amount of an invoice.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Approval pages etc.</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Transaction time</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Name of column.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Website</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Contact information.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">250</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Wizard</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">To be approved</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">A status/message indicating that something is ready for approval.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">Approval pages</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Telephone 2</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Contact information</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Fully depreciated</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Indicates that something is fully depreciated, as opposed to partially depreciated.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Increase %</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Report text from OS01 which is displayed if a purchase price has an increase of more than x %.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Show entire page</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT">OCR</Data></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Placement</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Text string for generic use</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Street</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Contact information.</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Result</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Text string for generic use</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row><Row xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Formula="=IF(LEN(RC[2])>RC[1], LEN(RC[2])-RC[1] &amp; &quot; CHARACTERS LONG&quot;,&quot;&quot;)"><Data ss:Type="String" protected="yes" DEFINITION="STATUS" /></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="Number" protected="yes" DEFINITION="MAX_LENGTH">255</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="no" DEFINITION="TERM_TO_TRANSLATE">Date</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_DESCRIPTION">Text string for generic use</Data></Cell>
+    <Cell><Data xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" ss:Type="String" protected="yes" DEFINITION="REFERENCE_CONTEXT" /></Cell>
+   </Row></Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header xmlns:x="urn:schemas-microsoft-com:office:excel" x:Margin="0.3" />
+    <Footer xmlns:x="urn:schemas-microsoft-com:office:excel" x:Margin="0.3" />
+    <PageMargins xmlns:x="urn:schemas-microsoft-com:office:excel" x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75" />
+   </PageSetup>
+   <Selected />
+   <Panes>
+    <Pane>
+     <Number>1</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions></Worksheet>
+</Workbook>
