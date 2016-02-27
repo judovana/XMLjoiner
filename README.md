@@ -1,8 +1,8 @@
 # XMLjoiner
-Tool to joining xml files based on xpath headers, body and tails
-Note, the assembly jar dont have support of namesapces, you ne
-! commandline arguments are overwriteing values in configs!
-config files are expected to be shared between joiner and splitter
+Tool to joining xml files based on xpath headers, body and tails  <br />
+Note, the assembly jar dont have support of namesapces, you need depndence or use zip with all libraries <br />
+! commandline arguments are overwriteing values in configs!  <br />
+config files are expected to be shared between joiner and splitter  <br />
 
 Original webpage - http://xmlsplit.wz.cz/  (and http://xmlcompare.wz.cz/)
 
